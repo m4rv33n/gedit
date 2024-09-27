@@ -15,3 +15,11 @@
     mv dracula.xml $HOME/.local/share/gedit/styles/
 
 3. Activate in Gedit's preferences dialog
+
+
+If it doesn't show up in the dialog:
+In some distributions it has to be moved to a different place
+
+    cp $HOME/.local/share/gedit/styles/dracula.xml /usr/share/libgedit-gtksourceview-300/styles/
+
+you'll need to to perform that action as root though (sudo)! 
